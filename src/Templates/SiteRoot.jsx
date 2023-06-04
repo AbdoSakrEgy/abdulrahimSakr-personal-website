@@ -10,15 +10,15 @@ import Footer from "../Organisms/Footer";
 
 const SiteRoot = () => {
   return (
-    <div className="bg-[#f0f2f5]">
+    <div className="px-20 bg-[#f0f2f5]">
       <Header />
       <About />
-      <Skills />
-      <Experience />
-      <Education />
-      <Projects />
-      <Contact />
-      <Footer />
+      {/* <Skills /> */}
+      {/* <Experience /> */}
+      {/* <Education /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
