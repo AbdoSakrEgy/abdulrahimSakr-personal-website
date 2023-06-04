@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .skillCard{
+        @apply basis-1/6 mb-6 mx-1 p-5 flex flex-col items-center rounded-lg shadow-xl bg-white;
+    }
+    .skillName{
+        @apply opacity-70 font-medium pt-2;
+    }
+}

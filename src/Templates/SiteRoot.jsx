@@ -13,7 +13,7 @@ const SiteRoot = () => {
     <div className="px-20 bg-[#f0f2f5]">
       <Header />
       <About />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Experience /> */}
       {/* <Education /> */}
       {/* <Projects /> */}
