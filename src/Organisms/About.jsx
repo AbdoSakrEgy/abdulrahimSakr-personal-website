@@ -15,7 +15,7 @@ const About = () => {
           <span className="text-3xl font-bold w-fit">Abdulrahim Sakr</span>
         </div>
 
-        <div className="pt-40 pb-10 px-12 bg-white">
+        <div className="pt-40 pb-10 px-12 rounded-lg bg-white">
           <div className="pb-5">
             <FontAwesomeIcon icon={faBriefcase} />
             <span className="ml-3">Web developer</span>

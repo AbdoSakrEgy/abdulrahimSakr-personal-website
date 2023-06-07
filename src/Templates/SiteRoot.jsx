@@ -15,7 +15,7 @@ const SiteRoot = () => {
       <About />
       <Skills />
       {/* <Experience /> */}
-      {/* <Education /> */}
+      <Education />
       {/* <Projects /> */}
       {/* <Contact /> */}
       {/* <Footer /> */}

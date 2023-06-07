@@ -12,28 +12,6 @@ const Skills = () => {
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
-            <Icon icon="vscode-icons:file-type-html" width="80" />
-          </div>
-          <div className="skillName">
-            <span>HTML</span>
-          </div>
-        </div>
-        {/* skill */}
-        <div className="skillCard">
-          <div className="flex justify-center">
-            <Icon
-              icon="vscode-icons:file-type-css"
-              color="#6b9e63"
-              width="80"
-            />
-          </div>
-          <div className="skillName">
-            <span>CSS</span>
-          </div>
-        </div>
-        {/* skill */}
-        <div className="skillCard">
-          <div className="flex justify-center">
             <Icon icon="logos:javascript" color="#6b9e63" width="80" />
           </div>
           <div className="skillName">
@@ -83,6 +61,24 @@ const Skills = () => {
           </div>
           <div className="skillName">
             <span>Git</span>
+          </div>
+        </div>
+        {/* skill */}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <Icon icon="logos:adobe-xd" width="80" />
+          </div>
+          <div className="skillName">
+            <span>Adobe XD</span>
+          </div>
+        </div>
+        {/* skill */}
+        <div className="skillCard invisible">
+          <div className="flex justify-center">
+            <Icon icon="vscode-icons:file-type-html" width="80" />
+          </div>
+          <div className="skillName">
+            <span>HTML</span>
           </div>
         </div>
         {/* skill */}
