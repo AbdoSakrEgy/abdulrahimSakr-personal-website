@@ -26,9 +26,10 @@ const Education = () => {
           <div className="w-[50%]">
             <div className="opacity-50">2020 - 2023</div>
             <div className="">Tanta University - Egypt</div>
-            <div className="font-medium">
+            <div className="">
               Faculty of Computers and Informatics
             </div>
+            <div className="text-sm text-gray-500"><span className="font-semibold">GPA </span>: 3.60 out of 4.00</div>
           </div>
         </div>
 
