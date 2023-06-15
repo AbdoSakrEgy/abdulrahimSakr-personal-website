@@ -1,48 +1,74 @@
 import React from "react";
 import personalimg from "../assets/1314407.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { Icon } from "@iconify/react";
 
-const About = () => {
+export default function About() {
   return (
-    <div className="pt-6">
-      <div className="relative pt-14 drop-shadow-md">
-        <div className="absolute flex flex-col items-center top-0 left-1/2 right-1/2 avatar">
-          <div className="w-40 rounded-full border-4 border-blue-700">
+    <div className="scroll-mt-20" id="aboutSection">
+      <div className="h-10"></div>
+      <div className="relative h-14">
+        <div className="absolute flex flex-col items-center w-[10%] top-0 left-[45%] avatar">
+          <div className="w-40 rounded-full border-2 border-blue-500">
             <img src={personalimg} className="" alt="no image" />
           </div>
           <span className="text-3xl font-bold w-fit">عبدالرحيم</span>
         </div>
+      </div>
 
-        <div className="pt-40 pb-10 px-12 rounded-lg bg-white">
-          <div className="pb-5">
-            <FontAwesomeIcon icon={faBriefcase} />
-            <span className="ml-3">Web developer</span>
-          </div>
-          <div className="pb-5">
-            <FontAwesomeIcon icon={faLocationDot} />
-            <span className="ml-3">Zefta,Egypt</span>
-          </div>
-          <div className="pb-5">
-            Dynamic, detail-oriented Software Engineer with over 4 years of
-            experience in the industry. Skilled in a variety of programming
-            languages, including PHP, Laravel, JavaScript, and Node.js.
-            Proficient in agile development methodologies and experienced in the
-            full software development lifecycle. Hold a Bachelor's degree in
-            Computer Science from AIUB. Maintain several open source projects.
-          </div>
-          <button className="btn btn-sm rounded-full text-xs hover:bg-blue-700 bg-blue-600 text-white">
-            Get in touch
-          </button>
-          <div className="flex justify-center">
-            <Icon icon="mdi:linkedin" width="25" className="mr-10" />
+      <div className="pt-40 pb-10 px-10 rounded-lg shadow-md bg-white">
+        <div>
+          <Icon
+            icon="uit:bag"
+            width="20"
+            height="20"
+            className="inline-block"
+          />
+          <span className="ml-3">Frontend developer</span>
+        </div>
+        <div className="pt-5">
+          <Icon
+            icon="system-uicons:location"
+            width="20"
+            height="20"
+            className="inline-block"
+          />
+          <span className="ml-3">Zefta , Gharbia , Egypt</span>
+        </div>
+        <div className="pt-5">
+          Dynamic, detail-oriented Software Engineer with over 4 years of
+          experience in the industry. Skilled in a variety of programming
+          languages, including PHP, Laravel, JavaScript, and Node.js. Proficient
+          in agile development methodologies and experienced in the full
+          software development lifecycle. Hold a Bachelor's degree in Computer
+          Science from AIUB. Maintain several open source projects.
+        </div>
+        <button
+          onClick={() => {
+            document
+              .getElementById("contactSection")
+              .scrollIntoView({ behavior: "smooth" });
+          }}
+          className="btn btn-sm mt-5 rounded-full text-xs hover:bg-[#359cfc] bg-blue-500 text-white"
+        >
+          Get in touch
+        </button>
+        <div className="flex justify-center pt-5">
+          <a
+            href="https://www.linkedin.com/in/abdulrahim-sakr-336937258/"
+            target="_blank"
+            className="mr-5 text-blue-500 hover:text-[#359cfc]"
+          >
+            <Icon icon="mdi:linkedin" width="25" />
+          </a>
+          <a
+            href="https://github.com/AbdoSakrEgy"
+            target="_blank"
+            className="text-blue-500 hover:text-[#359cfc]"
+          >
             <Icon icon="mdi:github" width="25" />
-          </div>
+          </a>
         </div>
       </div>
     </div>
   );
-};
-
-export default About;
+}

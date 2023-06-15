@@ -2,12 +2,12 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="my-28">
-      <div className="text-center text-3xl font-bold mb-8 text-gray-500">
+    <div className="mt-[15vh] scroll-mt-20" id="experienceSection">
+      <div className="text-center text-3xl font-bold text-gray-500">
         EXPERIENCE
       </div>
 
-      <div className="flex flex-col rounded-lg items-center overflow-hidden py-14 bg-white">
+      <div className="flex flex-col rounded-lg items-center overflow-hidden mt-10 py-5 shadow-md bg-white">
         {/* step */}
         <div className="flex justify-start">
           <div className="w-[50%] invisible">

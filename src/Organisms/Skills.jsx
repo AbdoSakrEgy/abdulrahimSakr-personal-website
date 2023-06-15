@@ -3,12 +3,12 @@ import { Icon } from "@iconify/react";
 
 const Skills = () => {
   return (
-    <div className="mt-28">
-      <div className="text-center text-3xl font-bold mb-8 text-gray-500">
+    <div className="mt-[15vh] scroll-mt-20" id="skillsSection">
+      <div className="text-center text-3xl font-bold text-gray-500">
         SKILLS
       </div>
 
-      <div className="flex justify-between flex-wrap">
+      <div className="flex justify-between flex-wrap pt-10">
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">

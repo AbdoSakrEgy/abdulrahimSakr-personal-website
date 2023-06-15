@@ -11,10 +11,8 @@ import Footer from "../Organisms/Footer";
 const SiteRoot = () => {
   return (
     <div>
-      <div className="sticky top-0">
-        <Header />
-      </div>
-      <div className="px-[10%] bg-[#f0f2f5]">
+      <Header />
+      <div className="px-[10vw] bg-[#f0f2f5]">
         <About />
         <Skills />
         <Experience />

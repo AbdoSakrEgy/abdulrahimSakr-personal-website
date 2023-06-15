@@ -3,12 +3,25 @@ import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
-    <div>
-      <div className="flex justify-center pb-3">
-        <Icon icon="mdi:linkedin" width="25" className="mr-10" />
-        <Icon icon="mdi:github" width="25" />
+    <div className="py-[5vh]">
+      <div className="flex justify-center">
+        <a
+          href="https://www.linkedin.com/in/abdulrahim-sakr-336937258/"
+          target="_blank"
+          className="mr-5 text-blue-500 hover:text-[#359cfc]"
+        >
+          <Icon icon="mdi:linkedin" width="25" />
+        </a>
+        <a
+          href="https://github.com/AbdoSakrEgy"
+          target="_blank"
+          className="text-blue-500 hover:text-[#359cfc]"
+        >
+          <Icon icon="mdi:github" width="25" />
+        </a>
       </div>
-      <div className="flex justify-center pb-7">
+
+      <div className="flex justify-center pt-5">
         <Icon icon="ph:copyright" width="25" className="inline-block" />
         <span> 2023 Abdulrahim Sakr</span>
       </div>

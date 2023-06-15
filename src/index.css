@@ -3,10 +3,30 @@
 @tailwind utilities;
 
 @layer components{
+    /* Header component */
+    .header-ul-li{
+        @apply pr-1 text-black;
+    }
+    .header-ul-li-a{
+        @apply relative text-xs font-normal py-3 transition ease-in-out delay-100 hover:text-blue-500 hover:bg-white;
+    }
+    /* Skill component */
     .skillCard{
-        @apply basis-1/6 mb-6 mx-1 p-5 flex flex-col items-center rounded-lg shadow-xl bg-white;
+        @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center rounded-lg shadow-xl bg-white hover:cursor-default;
     }
     .skillName{
         @apply opacity-70 font-medium pt-2;
     }
 }
+
+
+/* 
+SPACES:-
+-side space of main sections : 10vw
+-space between main sections : 15vh
+
+-side space of insted sections : 10
+-space between insted sections : 10 or 5 or 2
+
+
+*/
