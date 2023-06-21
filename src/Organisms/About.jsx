@@ -15,8 +15,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className="pt-40 pb-10 px-10 rounded-lg shadow-md bg-white">
-        <div>
+      <div className="pt-40 pb-10 px-10 rounded-lg shadow-md bg-white resp-AboutSec">
+        <div className="w-full">
           <Icon
             icon="uit:bag"
             width="20"
@@ -25,7 +25,7 @@ export default function About() {
           />
           <span className="ml-3">Frontend developer</span>
         </div>
-        <div className="pt-5">
+        <div className="pt-5 w-full">
           <Icon
             icon="system-uicons:location"
             width="20"
@@ -34,13 +34,11 @@ export default function About() {
           />
           <span className="ml-3">Zefta , Gharbia , Egypt</span>
         </div>
-        <div className="pt-5">
-          Dynamic, detail-oriented Software Engineer with over 4 years of
-          experience in the industry. Skilled in a variety of programming
-          languages, including PHP, Laravel, JavaScript, and Node.js. Proficient
-          in agile development methodologies and experienced in the full
-          software development lifecycle. Hold a Bachelor's degree in Computer
-          Science from AIUB. Maintain several open source projects.
+        <div className="pt-5 text-gray-500">
+          Fresh frontend web developer with over 7 months of training in industry.
+          Skilled in a variety of web technologies, including Reactjs,
+          Tailwindcss, Redux ToolKit and more. Hold a Bachelor's degree in
+          Computer Science from Tanta University. Trying to do my best.
         </div>
         <button
           onClick={() => {

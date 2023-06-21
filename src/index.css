@@ -19,6 +19,75 @@
     }
 }
 
+@media only screen and (max-width: 950px)  { 
+    /* Header.jsx */
+    .res-sidebar{
+        display: inline;
+    }
+    .resp-HeaderSec{
+        display: none;
+    }
+    /* About.jsx */
+    .resp-AboutSec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    /* Skills.jsx */
+    .skillCard{
+        flex-basis: 45%;
+    }
+    /* Experience.jsx */
+    .resp-EsperStep{
+        align-items: start;
+    }
+    .resp-spamcard{
+        display: none;
+    }
+    .resp-ExperSec {
+        width: 100%;
+        padding: 0;
+    }
+    .resp-ExperSec div{
+        width: 100%;
+    }
+    /* Education.jsx */
+    .resp-EduStep{
+        align-items: start;
+        padding-right: 2rem;
+    }
+    .resp-EduSec1 , .resp-EduSec3 , .resp-EduSec5{
+        display: none;
+    }
+    .resp-EduSec2 , .resp-EduSec4 , .resp-EduSec6{
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    .resp-EduSec4{
+        visibility: visible;
+        text-align: left;
+    }
+    /* Contact.jsx */
+    .resp-container{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .resp-container div{
+        width: 100%;
+    }
+    .resp-ContactSec1{
+        text-align: center;
+    }
+    .resp-ContactSec2 , .resp-ContactSec3 , .resp-ContactSec4 , .resp-ContactSec5 , .resp-ContactSec6{
+        width: 100%;
+        text-align: left;
+    }
+    .resp-container form{
+        padding-top: 2rem;
+    }
+}
 
 /* 
 SPACES:-

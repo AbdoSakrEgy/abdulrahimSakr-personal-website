@@ -73,7 +73,7 @@ const Skills = () => {
           </div>
         </div>
         {/* skill */}
-        <div className="skillCard invisible">
+        <div className="skillCard invisible resp-spamcard">
           <div className="flex justify-center">
             <Icon icon="vscode-icons:file-type-html" width="80" />
           </div>
@@ -82,7 +82,7 @@ const Skills = () => {
           </div>
         </div>
         {/* skill */}
-        <div className="skillCard invisible">
+        <div className="skillCard invisible resp-spamcard">
           <div className="flex justify-center">
             <Icon icon="vscode-icons:file-type-html" width="80" />
           </div>
@@ -91,7 +91,7 @@ const Skills = () => {
           </div>
         </div>
         {/* skill */}
-        <div className="skillCard invisible">
+        <div className="skillCard invisible resp-spamcard">
           <div className="flex justify-center">
             <Icon icon="vscode-icons:file-type-html" width="80" />
           </div>

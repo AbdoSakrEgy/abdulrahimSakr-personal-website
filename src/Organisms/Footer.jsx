@@ -21,9 +21,9 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="flex justify-center pt-5">
-        <Icon icon="ph:copyright" width="25" className="inline-block" />
-        <span> 2023 Abdulrahim Sakr</span>
+      <div className="flex justify-center pt-5 text-sm text-gray-500">
+        <Icon icon="ph:copyright" width="20" className="inline-block mr-1" />
+        <span>2023 Abdulrahim Sakr</span>
       </div>
     </div>
   );
