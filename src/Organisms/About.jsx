@@ -1,5 +1,5 @@
 import React from "react";
-import personalimg from "../assets/1314407.png";
+import personalimg from "../assets/Personal image.png";
 import { Icon } from "@iconify/react";
 
 export default function About() {
