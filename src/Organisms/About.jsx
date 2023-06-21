@@ -1,5 +1,5 @@
 import React from "react";
-import personalimg from "../assets/Personal image.png";
+import personalimg from "../assets/Personal image.jpg";
 import { Icon } from "@iconify/react";
 
 export default function About() {
@@ -8,8 +8,8 @@ export default function About() {
       <div className="h-10"></div>
       <div className="relative h-14">
         <div className="absolute flex flex-col items-center w-[10%] top-0 left-[45%] avatar">
-          <div className="w-40 rounded-full border-2 border-blue-500">
-            <img src={personalimg} className="" alt="no image" />
+          <div className="w-40 rounded-full border-4 border-blue-500">
+            <img src={personalimg} className="" alt="personal image" />
           </div>
           <span className="text-3xl font-bold w-fit">عبدالرحيم</span>
         </div>
