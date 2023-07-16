@@ -27,6 +27,9 @@
     .resp-HeaderSec{
         display: none;
     }
+    .CVBUTTON{
+        margin-left: 0;
+    }
     /* About.jsx */
     .resp-AboutSec{
         display: flex;

@@ -1,6 +1,7 @@
 import React from "react";
 import personalimg from "../assets/Personal image.jpeg";
 import { Icon } from "@iconify/react";
+import AbdulrahimSakrCV from "../assets/Abdulrahim Sakr CV.pdf";
 
 export default function About() {
   return (
@@ -35,8 +36,8 @@ export default function About() {
           <span className="ml-3">Zefta , Gharbia , Egypt</span>
         </div>
         <div className="pt-5 text-gray-500">
-          Fresh frontend web developer with over 7 months of training in industry.
-          Skilled in a variety of web technologies, including Reactjs,
+          Fresh frontend web developer with over 7 months of training in
+          industry. Skilled in a variety of web technologies, including Reactjs,
           Tailwindcss, Redux ToolKit and more. Hold a Bachelor's degree in
           Computer Science from Tanta University. Trying to do my best.
         </div>
@@ -50,6 +51,15 @@ export default function About() {
         >
           Get in touch
         </button>
+        <a
+          href={AbdulrahimSakrCV}
+          download="Example-PDF-document"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-sm mt-5 ml-5 rounded-full text-xs bg-white text-blue-500 border border-blue-500 hover:bg-[#359cfc] hover:text-white CVBUTTON"
+        >
+          Download CV
+        </a>
         <div className="flex justify-center pt-5">
           <a
             href="https://www.linkedin.com/in/abdulrahim-sakr-336937258/"
