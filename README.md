@@ -9,13 +9,6 @@ My portfolio :)
 - View my testimonials
 - Facilitate ways to communicate with me
 
-## Features
-- User registration and login
-- Doctor and Patient pages
-- Appointment Booking
-- Doctors evaluation
-- A satisfactory record for each patient
-
 ## Technologies
 - React
 - React router dom
