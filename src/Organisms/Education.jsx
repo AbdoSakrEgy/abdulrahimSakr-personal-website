@@ -1,5 +1,6 @@
 import React from "react";
-import VerticalStepper from "../Atoms/VerticalStepper";
+import { Icon } from "@iconify/react";
+import HighSchoolDiplomaCertificate from "../assets/High school diploma certificate.jpeg";
 
 const Education = () => {
   return (
@@ -43,6 +44,27 @@ const Education = () => {
             <div className="text-sm text-gray-500">
               <span className="font-semibold">Gradee </span>: 379 out of 410
             </div>
+            <div
+              onClick={() => window.my_modal_3.showModal()}
+              className="underline mt-5 text-gray-500 text-sm hover:cursor-pointer"
+            >
+              <Icon
+                icon="iconamoon:certificate-badge"
+                width="20"
+                className="inline-block"
+              />
+              certificate
+            </div>
+            {/* modal */}
+            <dialog id="my_modal_3" className="modal">
+              <form method="dialog" className="modal-box">
+                {/* <h3 className="font-bold text-lg">Hello!</h3> */}
+                <img src={HighSchoolDiplomaCertificate} alt="" />
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
 
           <div className="flex flex-col items-center px-5">
@@ -57,6 +79,27 @@ const Education = () => {
             <div className="text-sm text-gray-500">
               <span className="font-semibold">Gradee </span>: 379 out of 410
             </div>
+            <div
+              onClick={() => window.my_modal_4.showModal()}
+              className="underline mt-5 text-gray-500 text-sm hover:cursor-pointer"
+            >
+              <Icon
+                icon="iconamoon:certificate-badge"
+                width="20"
+                className="inline-block"
+              />
+              certificate
+            </div>
+            {/* modal */}
+            <dialog id="my_modal_4" className="modal">
+              <form method="dialog" className="modal-box">
+                {/* <h3 className="font-bold text-lg">Hello!</h3> */}
+                <img src={HighSchoolDiplomaCertificate} alt="" />
+              </form>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </div>
         </div>
 

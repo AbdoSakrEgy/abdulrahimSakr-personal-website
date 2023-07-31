@@ -1,7 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import certificate from '../assets/Certificate.jpeg'
-import index from '../index.css'
+import certificate from "../assets/Certificate.jpeg";
 
 const Experience = () => {
   return (
