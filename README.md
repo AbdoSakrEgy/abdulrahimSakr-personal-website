@@ -15,4 +15,5 @@ My portfolio :)
 - Tailwind css
 - DaisyUI
 
-<strong>DEMO: </strong>https://abdosakregy.github.io/abdulrahimSakr-personal-website/
+## DEMO
+https://abdosakregy.github.io/abdulrahimSakr-personal-website/
