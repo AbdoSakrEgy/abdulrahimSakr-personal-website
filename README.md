@@ -10,7 +10,7 @@ My portfolio :)
 - Facilitate ways to communicate with me
 
 ## Technologies
-- React
+- React (Vite)
 - React router dom
 - Tailwind css
 - DaisyUI
