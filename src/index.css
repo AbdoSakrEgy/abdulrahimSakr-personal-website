@@ -12,7 +12,7 @@
     }
     /* Skill component */
     .skillCard{
-        @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center rounded-lg shadow-xl bg-white hover:cursor-default;
+        @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center justify-between rounded-lg shadow-xl bg-white hover:cursor-default;
     }
     .skillName{
         @apply opacity-70 font-medium pt-2;
