@@ -12,12 +12,12 @@ const SiteRoot = () => {
   return (
     <div>
       <Header />
-      <div className="px-[10vw] bg-[#f0f2f5]">
+      <div className="px-[8vw] bg-[#f0f2f5]">
         <About />
         <Skills />
+        <Projects />
         <Experience />
         <Education />
-        {/* <Projects /> */}
         <Contact />
         <Footer />
       </div>

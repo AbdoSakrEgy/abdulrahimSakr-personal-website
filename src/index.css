@@ -2,97 +2,112 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    /* Header component */
-    .header-ul-li{
-        @apply pr-1 text-black;
-    }
-    .header-ul-li-a{
-        @apply relative text-xs font-normal py-3 transition ease-in-out delay-100 hover:text-blue-500 hover:bg-white;
-    }
-    /* Skill component */
-    .skillCard{
-        @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center justify-between rounded-lg shadow-xl bg-white hover:cursor-default;
-    }
-    .skillName{
-        @apply opacity-70 font-medium pt-2;
-    }
+@layer components {
+  /* Header.jsx */
+  .header-ul-li {
+    @apply pr-1 text-black;
+  }
+  .header-ul-li-a {
+    @apply relative text-xs font-normal py-3 transition ease-in-out delay-100 hover:text-blue-500 hover:bg-white;
+  }
+  /* Skill component */
+  .skillCard {
+    @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center justify-between rounded-lg shadow-xl bg-white hover:cursor-default;
+  }
+  .skillName {
+    @apply opacity-70 font-medium pt-2;
+  }
+  /* Projects.jsx */
+  .projectBody1 {
+    @apply flex justify-center items-center w-80 mb-10;
+  }
+  .projectBody2 {
+    @apply flex flex-col gap-3 p-10 w-full h-full rounded-lg shadow-xl hover:cursor-pointer bg-white text-gray-500;
+  }
 }
 
-@media only screen and (max-width: 950px)  { 
-    /* Header.jsx */
-    .res-sidebar{
-        display: inline;
-    }
-    .resp-HeaderSec{
-        display: none;
-    }
-    .CVBUTTON{
-        margin-left: 0;
-    }
-    /* About.jsx */
-    .resp-AboutSec{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    /* Skills.jsx */
-    .skillCard{
-        flex-basis: 45%;
-    }
-    /* Experience.jsx */
-    .resp-EsperStep{
-        align-items: start;
-    }
-    .resp-spamcard{
-        display: none;
-    }
-    .resp-ExperSec {
-        width: 100%;
-        padding: 0;
-    }
-    .resp-ExperSec div{
-        width: 100%;
-    }
-    /* Education.jsx */
-    .resp-EduStep{
-        align-items: start;
-        padding-right: 2rem;
-    }
-    .resp-EduSec1 , .resp-EduSec3 , .resp-EduSec5{
-        display: none;
-    }
-    .resp-EduSec2 , .resp-EduSec4 , .resp-EduSec6{
-        margin-bottom: 2rem;
-        width: 100%;
-    }
-    .resp-EduSec4{
-        visibility: visible;
-        text-align: left;
-    }
-    /* Contact.jsx */
-    .resp-container{
-        flex-direction: column;
-        padding: 2rem;
-    }
-    .resp-container div{
-        width: 100%;
-    }
-    .resp-ContactSec1{
-        text-align: center;
-    }
-    .resp-ContactSec2 , .resp-ContactSec3 , .resp-ContactSec4 , .resp-ContactSec5 , .resp-ContactSec6{
-        width: 100%;
-        text-align: left;
-    }
-    .resp-container form{
-        padding-top: 2rem;
-    }
-    .resp-ContactSec4{
-        font-size: small;
-    }
+@media only screen and (max-width: 950px) {
+  /* Header.jsx */
+  .res-sidebar {
+    display: inline;
+  }
+  .resp-HeaderSec {
+    display: none;
+  }
+  .CVBUTTON {
+    margin-left: 0;
+  }
+  /* About.jsx */
+  .resp-AboutSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* Skills.jsx */
+  .skillCard {
+    flex-basis: 45%;
+  }
+  /* Experience.jsx */
+  .resp-EsperStep {
+    align-items: start;
+  }
+  .resp-spamcard {
+    display: none;
+  }
+  .resp-ExperSec {
+    width: 100%;
+    padding: 0;
+  }
+  .resp-ExperSec div {
+    width: 100%;
+  }
+  /* Education.jsx */
+  .resp-EduStep {
+    align-items: start;
+    padding-right: 2rem;
+  }
+  .resp-EduSec1,
+  .resp-EduSec3,
+  .resp-EduSec5 {
+    display: none;
+  }
+  .resp-EduSec2,
+  .resp-EduSec4,
+  .resp-EduSec6 {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .resp-EduSec4 {
+    visibility: visible;
+    text-align: left;
+  }
+  /* Contact.jsx */
+  .resp-container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .resp-container div {
+    width: 100%;
+  }
+  .resp-ContactSec1 {
+    text-align: center;
+  }
+  .resp-ContactSec2,
+  .resp-ContactSec3,
+  .resp-ContactSec4,
+  .resp-ContactSec5,
+  .resp-ContactSec6 {
+    width: 100%;
+    text-align: left;
+  }
+  .resp-container form {
+    padding-top: 2rem;
+  }
+  .resp-ContactSec4 {
+    font-size: small;
+  }
 }
 
 /* 
