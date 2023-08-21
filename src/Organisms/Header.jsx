@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="sticky top-0 z-50">
       <div className="flex justify-between shadow-md px-6 py-0 bg-white">
-        {/* Sidebar */}
+        {/* Sidebar for large screen */}
         <div className="drawer hidden res-sidebar">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content py-2">
@@ -18,6 +18,7 @@ export default function Header() {
             <label htmlFor="my-drawer" className="drawer-overlay"></label>
             <ul className="menu p-4 w-[50%] h-full bg-base-200 text-base-content">
               {/* Sidebar content here */}
+              {/* About */}
               <li className="header-ul-li">
                 <a
                   onClick={() => {
@@ -31,6 +32,7 @@ export default function Header() {
                   ABOUT
                 </a>
               </li>
+              {/* SKILLS */}
               <li className="header-ul-li">
                 <a
                   onClick={() => {
@@ -44,6 +46,21 @@ export default function Header() {
                   SKILLS
                 </a>
               </li>
+              {/* PROJECTS */}
+              <li className="header-ul-li">
+                <a
+                  onClick={() => {
+                    document
+                      .getElementById("projectsSection")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
+                  className="header-ul-li-a"
+                >
+                  <Icon icon="icon-park-outline:workbench" />
+                  PROJECTS
+                </a>
+              </li>
+              {/* EXPERIENCE */}
               <li className="header-ul-li">
                 <a
                   onClick={() => {
@@ -57,6 +74,7 @@ export default function Header() {
                   EXPERIENCE
                 </a>
               </li>
+              {/* EDUCATION */}
               <li className="header-ul-li">
                 <a
                   onClick={() => {
@@ -70,18 +88,7 @@ export default function Header() {
                   EDUCATION
                 </a>
               </li>
-              {/* <li className="header-ul-li">
-              <a
-                onClick={() => {
-                  document
-                    .getElementById("projectsSection")
-                    .scrollIntoView({ behavior: "smooth" });
-                }}
-                className="header-ul-li-a"
-              >
-                PROJECTS
-              </a>
-            </li> */}
+              {/* CONTACT */}
               <li className="header-ul-li">
                 <a
                   onClick={() => {
@@ -98,7 +105,7 @@ export default function Header() {
             </ul>
           </div>
         </div>
-        {/* Sidebar */}
+        {/* Sidebar for large screen */}
 
         <a
           onClick={() => {
@@ -111,8 +118,10 @@ export default function Header() {
           Abdulrahim Sakr
         </a>
 
+        {/* Sidebar for small screen */}
         <div>
           <ul className="menu menu-horizontal px-1 py-0 font-semibold resp-HeaderSec">
+            {/* About */}
             <li className="header-ul-li">
               <a
                 onClick={() => {
@@ -126,6 +135,7 @@ export default function Header() {
                 ABOUT
               </a>
             </li>
+            {/* SKILLS */}
             <li className="header-ul-li">
               <a
                 onClick={() => {
@@ -139,6 +149,21 @@ export default function Header() {
                 SKILLS
               </a>
             </li>
+            {/* PROJECTS */}
+            <li className="header-ul-li">
+              <a
+                onClick={() => {
+                  document
+                    .getElementById("projectsSection")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+                className="header-ul-li-a"
+              >
+                <Icon icon="icon-park-outline:workbench" />
+                PROJECTS
+              </a>
+            </li>
+            {/* EXPERIENCE */}
             <li className="header-ul-li">
               <a
                 onClick={() => {
@@ -152,6 +177,7 @@ export default function Header() {
                 EXPERIENCE
               </a>
             </li>
+            {/* EDUCATION */}
             <li className="header-ul-li">
               <a
                 onClick={() => {
@@ -165,18 +191,7 @@ export default function Header() {
                 EDUCATION
               </a>
             </li>
-            {/* <li className="header-ul-li">
-              <a
-                onClick={() => {
-                  document
-                    .getElementById("projectsSection")
-                    .scrollIntoView({ behavior: "smooth" });
-                }}
-                className="header-ul-li-a"
-              >
-                PROJECTS
-              </a>
-            </li> */}
+            {/* CONTACT */}
             <li className="header-ul-li">
               <a
                 onClick={() => {
@@ -192,6 +207,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
+        {/* Sidebar for small screen */}
       </div>
     </div>
   );

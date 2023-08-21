@@ -4,7 +4,7 @@ import ProjectTemp from "../Molecules/ProjectTemp";
 const Projects = () => {
   return (
     <>
-      <main className="mt-[15vh] scroll-mt-20" id="">
+      <main className="mt-[15vh] scroll-mt-20" id="projectsSection">
         <header className="text-center text-3xl font-bold text-gray-500">
           Projects
         </header>
