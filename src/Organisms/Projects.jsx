@@ -40,6 +40,14 @@ const Projects = () => {
             }
             demoLink={"https://abdosakregy.github.io/specialize-clinic-system/"}
           />
+          <ProjectTemp
+            name={"user-dashboard"}
+            skillsUsed={["Javascript", "ReactJS"]}
+            discription={
+              "Task : Design and develop a responsive single web page that allows users to view and manage personal data, contact details, and comments."
+            }
+            demoLink={"https://abdosakregy.github.io/user-dashboard/"}
+          />
         </section>
       </main>
     </>
