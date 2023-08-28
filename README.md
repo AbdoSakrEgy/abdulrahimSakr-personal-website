@@ -42,7 +42,7 @@ GitHub is made up of repositories. A repository is a place where all files in a 
 
 3- In the menu that appears, click Download ZIP. The entire repository will be downloaded to your device as a zipped file.
 
-    $ cd TodoList-App
+    $ cd abdulrahimSakr-personal-website
     $ npm i
     $ npm run dev
 
