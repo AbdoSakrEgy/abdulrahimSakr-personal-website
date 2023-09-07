@@ -1,12 +1,16 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import uiux from "../assets/ui-ux.jpg";
 
 const Skills = () => {
   return (
-    <div className="mt-[15vh] scroll-mt-20" id="skillsSection">
+    <main
+      className="mt-[15vh] scroll-mt-20 lg:w-[1000px] mx-5"
+      id="skillsSection"
+    >
       <div className="text-center text-3xl font-bold text-gray-500">SKILLS</div>
 
-      <div className="flex justify-between flex-wrap pt-10">
+      <div className="flex justify-between gap-5 flex-wrap pt-10">
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
@@ -97,23 +101,63 @@ const Skills = () => {
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
-            <Icon icon="logos:adobe-xd" width="80" />
+            <Icon icon="devicon:github" color="#6b9e63" width="80" />
           </div>
           <div className="skillName">
-            <span>Adobe XD</span>
+            <span>github</span>
           </div>
         </div>
-        {/* spam skill if needed */}
-        <div className="skillCard hidden resp-spamcard">
+        {/* skill */}
+        <div className="skillCard">
           <div className="flex justify-center">
-            <Icon icon="logos:nextjs-icon" width="80" />
+            <img src={uiux} alt="ui/ux" width={150} />
           </div>
           <div className="skillName">
-            <span>spam skill</span>
+            <span>UI/UX</span>
+          </div>
+        </div>
+        {/* skill*/}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <Icon
+              icon="vscode-icons:file-type-typescript-official"
+              width="80"
+              color="gray"
+            />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">TypeScript</span>
+          </div>
+        </div>
+        {/* skill */}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <Icon icon="mdi:angular" width="80" color="gray" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">comming soon ^_^</span>
+          </div>
+        </div>
+        {/* Spam skill if needed */}
+        <div className="skillCard lg:invisible lg:block hidden">
+          <div className="flex justify-center">
+            <Icon icon="mdi:angular" width="80" color="gray" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">comming soon ^_^</span>
+          </div>
+        </div>
+        {/* Spam skill if needed */}
+        <div className="skillCard lg:invisible lg:block hidden">
+          <div className="flex justify-center">
+            <Icon icon="mdi:angular" width="80" color="gray" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">comming soon ^_^</span>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

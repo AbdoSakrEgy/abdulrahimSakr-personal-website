@@ -4,7 +4,10 @@ import certificate from "../assets/Certificate.jpeg";
 
 const Experience = () => {
   return (
-    <div className="mt-[15vh] scroll-mt-20" id="experienceSection">
+    <main
+      className="mt-[15vh] scroll-mt-20  lg:w-[1000px] mx-5"
+      id="experienceSection"
+    >
       <div className="text-center text-3xl font-bold text-gray-500">
         EXPERIENCE
       </div>
@@ -56,7 +59,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

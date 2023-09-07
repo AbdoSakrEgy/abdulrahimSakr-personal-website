@@ -12,14 +12,14 @@
   }
   /* Skill component */
   .skillCard {
-    @apply basis-1/6 mb-5 mr-1 p-5 flex flex-col items-center justify-between rounded-lg shadow-xl bg-white hover:cursor-default;
+    @apply basis-1/6 p-5 flex flex-col items-center justify-between rounded-lg shadow-xl bg-white hover:cursor-default hover:scale-[1.01] ease-in duration-200;
   }
   .skillName {
     @apply opacity-70 font-medium pt-2;
   }
   /* Projects.jsx */
   .projectBody1 {
-    @apply flex justify-center items-center w-80 mb-10;
+    @apply flex justify-center items-center w-80 hover:scale-[1.03] ease-in duration-200;
   }
   .projectBody2 {
     @apply flex flex-col gap-3 p-10 w-full h-full rounded-lg shadow-xl hover:cursor-pointer bg-white text-gray-500;

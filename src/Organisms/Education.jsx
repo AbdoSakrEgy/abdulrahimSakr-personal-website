@@ -4,7 +4,10 @@ import HighSchoolDiplomaCertificate from "../assets/High school diploma certific
 
 const Education = () => {
   return (
-    <div className="mt-[15vh] scroll-mt-20" id="educationSection">
+    <main
+      className="mt-[15vh] scroll-mt-20 lg:w-[1000px] mx-5"
+      id="educationSection"
+    >
       <div className="text-center text-3xl font-bold text-gray-500">
         EDUCATION
       </div>
@@ -124,7 +127,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -5,7 +5,7 @@ import AbdulrahimSakrCV from "../assets/Abdulrahim Sakr CV.pdf";
 
 export default function About() {
   return (
-    <div className="scroll-mt-20" id="aboutSection">
+    <main className="scroll-mt-20 lg:w-[1000px] mx-5" id="aboutSection">
       <div className="h-10"></div>
       <div className="relative h-14">
         <div className="absolute flex flex-col items-center w-[10%] top-0 left-[45%] avatar">
@@ -36,10 +36,10 @@ export default function About() {
           <span className="ml-3">Zefta , Gharbia , Egypt</span>
         </div>
         <div className="pt-5 text-gray-500">
-          Fresh frontend web developer with over 1 year in
-          industry. Skilled in a variety of web technologies, including Reactjs,
-          Tailwindcss, Redux ToolKit and more. Hold a Bachelor's degree in
-          Computer Science from Tanta University. Trying to do my best.
+          Fresh frontend web developer with over 1 year in industry. Skilled in
+          a variety of web technologies, including Reactjs, Tailwindcss, Redux
+          ToolKit and more. Hold a Bachelor's degree in Computer Science from
+          Tanta University. Trying to do my best.
         </div>
         <button
           onClick={() => {
@@ -77,6 +77,6 @@ export default function About() {
           </a>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

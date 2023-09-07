@@ -17,7 +17,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("message sent")
+          alert("message sent");
           document.getElementById("contactform").reset();
         },
         (error) => {
@@ -27,14 +27,19 @@ const Contact = () => {
   };
 
   return (
-    <div className="mt-[15vh] scroll-mt-20" id="contactSection">
+    <main
+      className="mt-[15vh] scroll-mt-20 lg:w-[1000px] mx-5"
+      id="contactSection"
+    >
       <div className="text-center text-3xl font-bold text-gray-500">
         CONTACT
       </div>
 
       <div className="flex rounded-lg overflow-hidden mt-10 py-14 px-32 shadow-md bg-white resp-container">
         <div className="flex flex-col justify-center w-1/2">
-          <div className="text-5xl text-gray-400 resp-ContactSec1">GET IN TOUCH</div>
+          <div className="text-5xl text-gray-400 resp-ContactSec1">
+            GET IN TOUCH
+          </div>
           <div className="pt-10 resp-ContactSec2">
             Fill in the form to start a conversation.
           </div>
@@ -101,7 +106,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </main>
   );
 };
 

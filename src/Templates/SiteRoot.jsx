@@ -12,7 +12,7 @@ const SiteRoot = () => {
   return (
     <div>
       <Header />
-      <div className="px-[8vw] bg-[#f0f2f5]">
+      <div className="flex flex-col justify-center items-center bg-[#f0f2f5]">
         <About />
         <Skills />
         <Projects />
