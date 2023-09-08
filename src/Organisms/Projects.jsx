@@ -51,7 +51,7 @@ const Projects = () => {
           name={"user-dashboard"}
           skillsUsed={["Javascript", "ReactJS"]}
           discription={
-            "Task : Design and develop a responsive single web page that allows users to view and manage personal data, contact details, and comments."
+            "A responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
           demoLink={"https://abdosakregy.github.io/user-dashboard/"}
         />
