@@ -33,7 +33,7 @@ export default function About() {
             height="20"
             className="inline-block"
           />
-          <span className="ml-3">Zefta , Gharbia , Egypt</span>
+          <span className="ml-3">Cairo , Egypt</span>
         </div>
         <div className="pt-5 text-gray-500">
           Fresh frontend web developer with over 1 year in industry. Skilled in
