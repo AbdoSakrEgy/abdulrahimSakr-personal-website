@@ -1,7 +1,7 @@
 import React from "react";
 import personalimg from "../assets/Personal image.jpeg";
 import { Icon } from "@iconify/react";
-import AbdulrahimSakrCV from "../assets/Abdulrahim Sakr CV.pdf";
+import AbdulrahimSakrCV from "../assets/Abdulrahim's Resume.pdf";
 
 export default function About() {
   return (
