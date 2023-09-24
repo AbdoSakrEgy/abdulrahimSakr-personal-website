@@ -9,6 +9,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/abdulrahim-sakr-336937258/"
           target="_blank"
           className="mr-5 text-blue-500 hover:text-[#359cfc]"
+          rel="noreferrer"
         >
           <Icon icon="mdi:linkedin" width="25" />
         </a>
@@ -16,6 +17,7 @@ const Footer = () => {
           href="https://github.com/AbdoSakrEgy"
           target="_blank"
           className="text-blue-500 hover:text-[#359cfc]"
+          rel="noreferrer"
         >
           <Icon icon="mdi:github" width="25" />
         </a>

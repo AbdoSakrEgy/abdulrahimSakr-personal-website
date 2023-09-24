@@ -23,6 +23,28 @@ const Skills = () => {
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
+            <Icon icon="logos:angular-icon" width="80" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">Angular</span>
+          </div>
+        </div>
+        {/* skill*/}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <Icon
+              icon="vscode-icons:file-type-typescript-official"
+              width="80"
+              color="gray"
+            />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">TypeScript</span>
+          </div>
+        </div>
+        {/* skill */}
+        <div className="skillCard">
+          <div className="flex justify-center">
             <Icon icon="devicon:react" color="#6b9e63" width="80" />
           </div>
           <div className="skillName">
@@ -114,28 +136,6 @@ const Skills = () => {
           </div>
           <div className="skillName">
             <span>UI/UX</span>
-          </div>
-        </div>
-        {/* skill*/}
-        <div className="skillCard">
-          <div className="flex justify-center">
-            <Icon
-              icon="vscode-icons:file-type-typescript-official"
-              width="80"
-              color="gray"
-            />
-          </div>
-          <div className="skillName">
-            <span className="text-sm">TypeScript</span>
-          </div>
-        </div>
-        {/* skill */}
-        <div className="skillCard">
-          <div className="flex justify-center">
-            <Icon icon="mdi:angular" width="80" color="gray" />
-          </div>
-          <div className="skillName">
-            <span className="text-sm">comming soon ^_^</span>
           </div>
         </div>
         {/* Spam skill if needed */}

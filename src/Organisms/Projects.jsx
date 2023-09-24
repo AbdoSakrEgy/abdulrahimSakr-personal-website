@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectTemp from "../Molecules/ProjectTemp";
 
 const Projects = () => {
@@ -11,7 +10,7 @@ const Projects = () => {
         Projects
       </header>
 
-      <section className="flex flex-wrap justify-between gap-5 pt-10">
+      <section className="flex flex-wrap justify-center md:justify-between gap-5 pt-10">
         {/* project */}
         <ProjectTemp
           name={"abdulrahimSakr-personal-website"}
@@ -54,6 +53,18 @@ const Projects = () => {
             "A responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
           demoLink={"https://abdosakregy.github.io/user-dashboard/"}
+        />
+        <ProjectTemp
+          name={"Market"}
+          skillsUsed={["Angular", "TypeScript"]}
+          discription={"E-commerce App for browsing products."}
+          demoLink={"https://abdosakregy.github.io/Market/products"}
+        />
+        <ProjectTemp
+          name={"market-admin"}
+          skillsUsed={["Angular", "TypeScript"]}
+          discription={"E-commerce admin App for control products."}
+          demoLink={"https://abdosakregy.github.io/market-admin/products"}
         />
         {/* spam project if needed */}
         <main className="projectBody1 lg:invisible lg:block hidden">

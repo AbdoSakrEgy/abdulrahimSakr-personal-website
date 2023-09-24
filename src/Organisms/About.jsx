@@ -38,8 +38,8 @@ export default function About() {
         <div className="pt-5 text-gray-500">
           Fresh frontend web developer with over 1 year in industry. Skilled in
           a variety of web technologies, including Reactjs, Tailwindcss, Redux
-          ToolKit and more. Hold a Bachelor's degree in Computer Science from
-          Tanta University. Trying to do my best.
+          ToolKit and more. Hold a Bachelor&apos;s degree in Computer Science
+          from Tanta University. Trying to do my best.
         </div>
         <button
           onClick={() => {
@@ -65,6 +65,7 @@ export default function About() {
             href="https://www.linkedin.com/in/abdulrahim-sakr-336937258/"
             target="_blank"
             className="mr-5 text-blue-500 hover:text-[#359cfc]"
+            rel="noreferrer"
           >
             <Icon icon="mdi:linkedin" width="25" />
           </a>
@@ -72,6 +73,7 @@ export default function About() {
             href="https://github.com/AbdoSakrEgy"
             target="_blank"
             className="text-blue-500 hover:text-[#359cfc]"
+            rel="noreferrer"
           >
             <Icon icon="mdi:github" width="25" />
           </a>
