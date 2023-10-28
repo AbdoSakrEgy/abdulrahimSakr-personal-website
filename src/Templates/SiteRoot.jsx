@@ -7,6 +7,7 @@ import Education from "../Organisms/Education";
 import Projects from "../Organisms/Projects";
 import Contact from "../Organisms/Contact";
 import Footer from "../Organisms/Footer";
+import PalestineFlag from "../Atoms/PalestineFlag";
 
 const SiteRoot = () => {
   return (
@@ -20,6 +21,7 @@ const SiteRoot = () => {
         <Education />
         <Contact />
         <Footer />
+        <PalestineFlag />
       </div>
     </div>
   );

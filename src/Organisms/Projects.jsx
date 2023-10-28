@@ -50,21 +50,32 @@ const Projects = () => {
           name={"user-dashboard"}
           skillsUsed={["Javascript", "ReactJS"]}
           discription={
-            "A responsive web page that allows the user to view and manage personal data, contact details and comments."
+            "React responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
           demoLink={"https://abdosakregy.github.io/user-dashboard/"}
         />
+        {/* project */}
         <ProjectTemp
           name={"Market"}
           skillsUsed={["Angular", "TypeScript"]}
           discription={"E-commerce App for browsing products."}
           demoLink={"https://abdosakregy.github.io/Market/products"}
         />
+        {/* project */}
         <ProjectTemp
           name={"market-admin"}
           skillsUsed={["Angular", "TypeScript"]}
           discription={"E-commerce admin App for control products."}
           demoLink={"https://abdosakregy.github.io/market-admin/products"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"user-info"}
+          skillsUsed={["Angular", "TypeScript"]}
+          discription={
+            "Angular responsive web page that allows the user to view and manage personal data, contact details and comments."
+          }
+          demoLink={"https://abdosakregy.github.io/user-info/users-info"}
         />
         {/* spam project if needed */}
         <main className="projectBody1 lg:invisible lg:block hidden">
