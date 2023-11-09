@@ -1,6 +1,7 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import uiux from "../assets/ui-ux.jpg";
+import ngrx from "../assets/ngrx.png";
 
 const Skills = () => {
   return (
@@ -40,6 +41,15 @@ const Skills = () => {
           </div>
           <div className="skillName">
             <span className="text-sm">TypeScript</span>
+          </div>
+        </div>
+        {/* skill*/}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <img src={ngrx} alt="ngrx" width="80" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">NgRx</span>
           </div>
         </div>
         {/* skill */}
