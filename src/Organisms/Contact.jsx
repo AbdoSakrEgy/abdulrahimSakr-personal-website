@@ -48,7 +48,7 @@ const Contact = () => {
               icon="bytesize:location"
               className="inline-block w-4 h-4 mr-3"
             />
-            Zefta , Gharbia , Egypt
+            Cairo , Egypt
           </div>
           <div className="pt-10 font-semibold text-gray-500 resp-ContactSec4">
             <Icon

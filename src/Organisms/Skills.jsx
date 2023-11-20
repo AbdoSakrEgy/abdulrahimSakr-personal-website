@@ -24,7 +24,7 @@ const Skills = () => {
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
-            <Icon icon="logos:angular-icon" width="80" />
+            <Icon icon="devicon:angular" width="80" />
           </div>
           <div className="skillName">
             <span className="text-sm">Angular</span>
@@ -158,14 +158,6 @@ const Skills = () => {
           </div>
         </div>
         {/* Spam skill if needed */}
-        <div className="skillCard lg:invisible lg:block hidden">
-          <div className="flex justify-center">
-            <Icon icon="mdi:angular" width="80" color="gray" />
-          </div>
-          <div className="skillName">
-            <span className="text-sm">comming soon ^_^</span>
-          </div>
-        </div>
       </div>
     </main>
   );
