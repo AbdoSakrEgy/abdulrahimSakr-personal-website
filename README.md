@@ -2,7 +2,7 @@
 My portfolio :)
 
 ## DEMO
-Check out the live demo of the "user-info" project: [Live Demo](https://abdosakregy.github.io/abdulrahimSakr-personal-website/)
+Check out the live demo of my portfolio: [Live Demo](https://abdosakregy.github.io/abdulrahimSakr-personal-website/)
 
 ## Technology used
 - React (Vite)
