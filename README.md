@@ -1,19 +1,20 @@
 # abdulrahimSakr-personal-website
 My portfolio :)
 
-## Technologies
+## DEMO
+Check out the live demo of the "user-info" project: [Live Demo](https://abdosakregy.github.io/abdulrahimSakr-personal-website/)
+
+## Technology used
 - React (Vite)
 - React router dom
 - Tailwind css
 - DaisyUI
 
 ## Requirements
-
 For development, you will only need Node.js installed on your environement.
 And please use the appropriate [Editorconfig](http://editorconfig.org/) plugin for your Editor (not mandatory).
 
 ### Node
-
 [Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
 You should be able to run the following command after the installation procedure
 below.
@@ -37,6 +38,3 @@ GitHub is made up of repositories. A repository is a place where all files in a 
     $ cd abdulrahimSakr-personal-website
     $ npm i
     $ npm run dev
-
-## DEMO
-https://abdosakregy.github.io/abdulrahimSakr-personal-website/
