@@ -1,7 +1,5 @@
-# abdulrahimSakr-personal-website
-My portfolio :)
-
-## DEMO
+# Abdulrahim Sakr Portfolio
+Welcome to my portfolio!
 Check out the live demo of my portfolio: [Live Demo](https://abdosakregy.github.io/abdulrahimSakr-personal-website/)
 
 ## Technology used
