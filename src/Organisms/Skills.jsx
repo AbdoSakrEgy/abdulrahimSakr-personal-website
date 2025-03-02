@@ -2,6 +2,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import uiux from "../assets/ui-ux.jpg";
 import ngrx from "../assets/ngrx.png";
+import angularMaterial from "../assets/material.png";
 
 const Skills = () => {
   return (
@@ -11,16 +12,7 @@ const Skills = () => {
     >
       <div className="text-center text-3xl font-bold text-gray-500">SKILLS</div>
 
-      <div className="flex justify-between gap-5 flex-wrap pt-10">
-        {/* skill */}
-        <div className="skillCard">
-          <div className="flex justify-center">
-            <Icon icon="logos:javascript" color="#6b9e63" width="80" />
-          </div>
-          <div className="skillName">
-            <span>JavaScript</span>
-          </div>
-        </div>
+      <div className="flex justify-start gap-10 flex-wrap pt-10">
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">
@@ -33,23 +25,19 @@ const Skills = () => {
         {/* skill*/}
         <div className="skillCard">
           <div className="flex justify-center">
-            <Icon
-              icon="vscode-icons:file-type-typescript-official"
-              width="80"
-              color="gray"
-            />
-          </div>
-          <div className="skillName">
-            <span className="text-sm">TypeScript</span>
-          </div>
-        </div>
-        {/* skill*/}
-        <div className="skillCard">
-          <div className="flex justify-center">
             <img src={ngrx} alt="ngrx" width="80" />
           </div>
           <div className="skillName">
             <span className="text-sm">NgRx</span>
+          </div>
+        </div>
+        {/* skill */}
+        <div className="skillCard">
+          <div className="flex justify-center">
+            <img src={angularMaterial} alt="ngrx" width="80" />
+          </div>
+          <div className="skillName">
+            <span className="text-sm">Angular Material</span>
           </div>
         </div>
         {/* skill */}
@@ -128,15 +116,6 @@ const Skills = () => {
           </div>
           <div className="skillName">
             <span>Git</span>
-          </div>
-        </div>
-        {/* skill */}
-        <div className="skillCard">
-          <div className="flex justify-center">
-            <Icon icon="devicon:github" color="#6b9e63" width="80" />
-          </div>
-          <div className="skillName">
-            <span>github</span>
           </div>
         </div>
         {/* skill */}

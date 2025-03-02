@@ -21,7 +21,7 @@ const SiteRoot = () => {
         <Education />
         <Contact />
         <Footer />
-        <PalestineFlag />
+        {/* <PalestineFlag /> */}
       </div>
     </div>
   );
