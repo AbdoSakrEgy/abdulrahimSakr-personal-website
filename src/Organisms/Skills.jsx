@@ -12,7 +12,7 @@ const Skills = () => {
     >
       <div className="text-center text-3xl font-bold text-gray-500">SKILLS</div>
 
-      <div className="flex justify-start gap-10 flex-wrap pt-10">
+      <div className="flex justify-center md:justify-start gap-10 flex-wrap pt-10">
         {/* skill */}
         <div className="skillCard">
           <div className="flex justify-center">

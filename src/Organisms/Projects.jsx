@@ -10,7 +10,7 @@ const Projects = () => {
         Projects
       </header>
 
-      <section className="flex flex-wrap justify-center md:justify-between gap-5 pt-10">
+      <section className="flex flex-wrap justify-center md:justify-start gap-5 pt-10">
         {/* project */}
         <ProjectTemp
           name={"abdulrahimSakr-personal-website"}
@@ -77,15 +77,7 @@ const Projects = () => {
           }
           demoLink={"https://abdosakregy.github.io/user-info/users-info"}
         />
-        {/* project */}
-        <ProjectTemp
-          name={"custom-paginator-angular"}
-          skillsUsed={["Angular", "TypeScript"]}
-          discription={
-            "Angular code of how to paginate some data using custom styles."
-          }
-          demoLink={"https://abdosakregy.github.io/custom-paginator-angular/"}
-        />
+        
         {/* spam project if needed */}
         {/* <main className="projectBody1 lg:invisible lg:block hidden">
           <a href="" target="_blank" className="w-full h-full">
