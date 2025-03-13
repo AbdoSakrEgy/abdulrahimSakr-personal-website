@@ -36,9 +36,9 @@ export default function About() {
           <span className="ml-3">Cairo , Egypt</span>
         </div>
         <div className="pt-5 text-gray-500">
-          Fresh frontend web developer with over 1 year in industry. Skilled in
-          a variety of web technologies, including Reactjs, Tailwindcss, Redux
-          ToolKit and more. Hold a Bachelor&apos;s degree in Computer Science
+          Frontend web developer with over 1 year in industry. Skilled in a
+          variety of web technologies, including Angular, Reactjs, Tailwindcss,
+          Redux ToolKit and more. Hold a Bachelor's degree in Computer Science
           from Tanta University. Trying to do my best.
         </div>
         <button
