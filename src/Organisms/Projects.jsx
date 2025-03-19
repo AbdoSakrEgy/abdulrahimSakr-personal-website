@@ -13,9 +13,16 @@ const Projects = () => {
       <section className="flex flex-wrap justify-center md:justify-start gap-5 pt-10">
         {/* project */}
         <ProjectTemp
+          name={"My-Portfolio"}
+          skillsUsed={["Angular", "TailwindCSS"]}
+          discription={"My portfolio."}
+          demoLink={"https://abdulrahim01.netlify.app/"}
+        />
+        {/* project */}
+        <ProjectTemp
           name={"abdulrahimSakr-personal-website"}
           skillsUsed={["Javascript", "ReactJS"]}
-          discription={"My portfolio."}
+          discription={"Portfolio design by react."}
           demoLink={
             "https://abdosakregy.github.io/abdulrahimSakr-personal-website/"
           }
@@ -77,7 +84,7 @@ const Projects = () => {
           }
           demoLink={"https://abdosakregy.github.io/user-info/users-info"}
         />
-        
+
         {/* spam project if needed */}
         {/* <main className="projectBody1 lg:invisible lg:block hidden">
           <a href="" target="_blank" className="w-full h-full">
