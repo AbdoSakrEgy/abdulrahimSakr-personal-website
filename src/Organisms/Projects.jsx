@@ -20,69 +20,88 @@ const Projects = () => {
         />
         {/* project */}
         <ProjectTemp
-          name={"abdulrahimSakr-personal-website"}
-          skillsUsed={["Javascript", "ReactJS"]}
-          discription={"Portfolio design by react."}
-          demoLink={
-            "https://abdosakregy.github.io/abdulrahimSakr-personal-website/"
-          }
-        />
-        {/* project */}
-        <ProjectTemp
-          name={"ecommerce-app-clientside"}
+          name={"ECommerce-user"}
           skillsUsed={["Javascript", "ReactJS"]}
           discription={"E-commerce App for browsing products."}
-          demoLink={"https://abdosakregy.github.io/ecommerce-app-clientside/"}
+          demoLink={"https://abdosakregy.github.io/ECommerce-user/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"TodoList-App"}
+          name={"TodoList"}
           skillsUsed={["Javascript", "ReactJS"]}
           discription={
             "CRUD app to organize daily tasks by using ReduxToolkit."
           }
-          demoLink={"https://abdosakregy.github.io/TodoList-App/"}
+          demoLink={"https://abdosakregy.github.io/TodoList/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"specialize-clinic-system"}
+          name={"specialized-clinic-system"}
           skillsUsed={["Javascript", "ReactJS"]}
           discription={
             "Booking APP that facilitates communication between the patient and the doctor."
           }
-          demoLink={"https://abdosakregy.github.io/specialize-clinic-system/"}
+          demoLink={"https://specialized-clinic-system.netlify.app/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"user-dashboard"}
-          skillsUsed={["Javascript", "ReactJS"]}
+          name={"InfoViewer"}
+          skillsUsed={[
+            "React",
+            "ReactRouterDdom",
+            "Tailwindcss",
+            "React Suite",
+          ]}
           discription={
             "React responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
-          demoLink={"https://abdosakregy.github.io/user-dashboard/"}
+          demoLink={"https://abdosakregy.github.io/InfoViewer/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"Market"}
+          name={"Market-user"}
           skillsUsed={["Angular", "TypeScript"]}
           discription={"E-commerce App for browsing products."}
-          demoLink={"https://abdosakregy.github.io/Market/products"}
+          demoLink={"https://market-user.netlify.app/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"market-admin"}
+          name={"Market-admin"}
           skillsUsed={["Angular", "TypeScript"]}
           discription={"E-commerce admin App for control products."}
-          demoLink={"https://abdosakregy.github.io/market-admin/products"}
+          demoLink={"https://market-admin-abdosakr.netlify.app/"}
         />
         {/* project */}
         <ProjectTemp
-          name={"user-info"}
+          name={"InfoViewer-2"}
           skillsUsed={["Angular", "TypeScript"]}
           discription={
             "Angular responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
-          demoLink={"https://abdosakregy.github.io/user-info/users-info"}
+          demoLink={"https://infoviewer-2.netlify.app/InfoViewer-2"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"TaskManager-admin"}
+          skillsUsed={["Angular", "AngularMaterial", "Tailwindcss", "NgRx"]}
+          discription={"Angular CRUD app for admin side."}
+          demoLink={"https://taskmanager-admin.netlify.app/"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"TaskManager-user"}
+          skillsUsed={["Angular", "AngularMaterial", "Tailwindcss", "NgRx"]}
+          discription={"Angular CRUD app for user side."}
+          demoLink={"https://taskmanager-user.netlify.app/"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"Diwan-nurse"}
+          skillsUsed={["React", "Tailwindcss"]}
+          discription={
+            "A healthcare web app for managing appointments and patient records."
+          }
+          demoLink={"https://diwan-nurse.netlify.app/"}
         />
 
         {/* spam project if needed */}
