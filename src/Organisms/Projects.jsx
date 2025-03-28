@@ -12,59 +12,13 @@ const Projects = () => {
 
       <section className="flex flex-wrap justify-center md:justify-start gap-5 pt-10">
         {/* project */}
+        {/* project */}
         <ProjectTemp
           name={"My-Portfolio"}
           skillsUsed={["Angular", "TailwindCSS"]}
           discription={"My portfolio."}
           demoLink={"https://abdulrahim01.netlify.app/"}
         />
-        {/* project */}
-        <ProjectTemp
-          name={"ECommerce-user"}
-          skillsUsed={["Javascript", "ReactJS"]}
-          discription={"E-commerce App for browsing products."}
-          demoLink={"https://abdosakregy.github.io/ECommerce-user/"}
-        />
-        {/* project */}
-        <ProjectTemp
-          name={"TodoList"}
-          skillsUsed={["Javascript", "ReactJS"]}
-          discription={
-            "CRUD app to organize daily tasks by using ReduxToolkit."
-          }
-          demoLink={"https://abdosakregy.github.io/TodoList/"}
-        />
-        {/* project */}
-        <ProjectTemp
-          name={"specialized-clinic-system"}
-          skillsUsed={["Javascript", "ReactJS"]}
-          discription={
-            "Booking APP that facilitates communication between the patient and the doctor."
-          }
-          demoLink={"https://specialized-clinic-system.netlify.app/"}
-        />
-        {/* project */}
-        <ProjectTemp
-          name={"InfoViewer"}
-          skillsUsed={[
-            "React",
-            "ReactRouterDdom",
-            "Tailwindcss",
-            "React Suite",
-          ]}
-          discription={
-            "React responsive web page that allows the user to view and manage personal data, contact details and comments."
-          }
-          demoLink={"https://abdosakregy.github.io/InfoViewer/"}
-        />
-        {/* project */}
-        <ProjectTemp
-          name={"Market-user"}
-          skillsUsed={["Angular", "TypeScript"]}
-          discription={"E-commerce App for browsing products."}
-          demoLink={"https://market-user.netlify.app/"}
-        />
-        {/* project */}
         <ProjectTemp
           name={"Market-admin"}
           skillsUsed={["Angular", "TypeScript"]}
@@ -73,12 +27,10 @@ const Projects = () => {
         />
         {/* project */}
         <ProjectTemp
-          name={"InfoViewer-2"}
+          name={"Market-user"}
           skillsUsed={["Angular", "TypeScript"]}
-          discription={
-            "Angular responsive web page that allows the user to view and manage personal data, contact details and comments."
-          }
-          demoLink={"https://infoviewer-2.netlify.app/InfoViewer-2"}
+          discription={"E-commerce App for browsing products."}
+          demoLink={"https://market-user.netlify.app/"}
         />
         {/* project */}
         <ProjectTemp
@@ -96,6 +48,45 @@ const Projects = () => {
         />
         {/* project */}
         <ProjectTemp
+          name={"InfoViewer"}
+          skillsUsed={[
+            "React",
+            "ReactRouterDdom",
+            "Tailwindcss",
+            "React Suite",
+          ]}
+          discription={
+            "React responsive web page that allows the user to view and manage personal data, contact details and comments."
+          }
+          demoLink={"https://abdosakregy.github.io/InfoViewer/"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"InfoViewer-2"}
+          skillsUsed={["Angular", "TypeScript"]}
+          discription={
+            "Angular responsive web page that allows the user to view and manage personal data, contact details and comments."
+          }
+          demoLink={"https://infoviewer-2.netlify.app/InfoViewer-2"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"ECommerce-user"}
+          skillsUsed={["Javascript", "ReactJS"]}
+          discription={"E-commerce App for browsing products."}
+          demoLink={"https://abdosakregy.github.io/ECommerce-user/"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"specialized-clinic-system"}
+          skillsUsed={["Javascript", "ReactJS"]}
+          discription={
+            "Booking APP that facilitates communication between the patient and the doctor."
+          }
+          demoLink={"https://specialized-clinic-system.netlify.app/"}
+        />
+        {/* project */}
+        <ProjectTemp
           name={"Diwan-nurse"}
           skillsUsed={["React", "Tailwindcss"]}
           discription={
@@ -103,7 +94,15 @@ const Projects = () => {
           }
           demoLink={"https://diwan-nurse.netlify.app/"}
         />
-
+        {/* project */}
+        <ProjectTemp
+          name={"TodoList"}
+          skillsUsed={["Javascript", "ReactJS"]}
+          discription={
+            "CRUD app to organize daily tasks by using ReduxToolkit."
+          }
+          demoLink={"https://abdosakregy.github.io/TodoList/"}
+        />
         {/* spam project if needed */}
         {/* <main className="projectBody1 lg:invisible lg:block hidden">
           <a href="" target="_blank" className="w-full h-full">
