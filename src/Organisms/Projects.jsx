@@ -67,7 +67,7 @@ const Projects = () => {
           discription={
             "Angular responsive web page that allows the user to view and manage personal data, contact details and comments."
           }
-          demoLink={"https://infoviewer-2.netlify.app/InfoViewer-2"}
+          demoLink={"https://infoviewer-2.netlify.app"}
         />
         {/* project */}
         <ProjectTemp
@@ -101,6 +101,13 @@ const Projects = () => {
           discription={
             "CRUD app to organize daily tasks by using ReduxToolkit."
           }
+          demoLink={"https://abdosakregy.github.io/TodoList/"}
+        />
+        {/* project */}
+        <ProjectTemp
+          name={"BusinessManagement-admin"}
+          skillsUsed={["Angular", "AngularMaterial", "Tailwindcss", "NgRx"]}
+          discription={"Dashboard for business management."}
           demoLink={"https://abdosakregy.github.io/TodoList/"}
         />
         {/* spam project if needed */}
